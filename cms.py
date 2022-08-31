@@ -1,5 +1,4 @@
 import re
-import os
 import sys
 
 from markdown2 import Markdown
@@ -17,11 +16,6 @@ class Cms():
         self.process(markdown)
 
     def load(self):
-        print("Loading file")
-        # Check if file exists
-        if not os.path.exists(self.html_path):
-            raise "HTML file does not exist"
-
         # Read to memory
         with open(self.html_path, "r") as exercise_reader:
             self.html_raw_text = exercise_reader.read()
