@@ -4,7 +4,7 @@ A Markdown renderer for use with the KU Leuven Toledo environment
 
 ## What is Toledo Markdown Renderer?
 
-This Python script can process a Markdown file (or an HTML file, if you want) to automatically apply proper styling to it. The script does this by adding styling elements to each eligible element separately. Unfortunately, the KU Leuven Toledo environment does not support CSS styling, so this HTML 1.0 practise. Because it is tedious, however, I decided to automate it for myself and my lovely colleagues.
+This Python script can process a Markdown file (or an HTML file, if you want) to automatically apply proper styling to it. The script does this by adding styling elements to each eligible element separately. Unfortunately, the KU Leuven Toledo environment does not support CSS styling, so this HTML 1.0 practise is necessary. Because it is tedious, however, I decided to automate it for myself and my lovely colleagues.
 
 ## How to use Toledo Markdown Renderer?
 
