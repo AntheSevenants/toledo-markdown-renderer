@@ -50,3 +50,7 @@ class Cms():
         self.html_raw_text = re.sub(r"<div class=\"accolade\">", "<div style=\"margin-bottom: 2em; border-left-width: 2px; border-left-style: solid; box-sizing: border-box; padding-left: 1em; border-color: #00407a;\">", self.html_raw_text)
         #self.html_raw_text = "<div style=\"line-height: 160%;\">" + self.html_raw_text + "</div>"  # AN
         self.html_raw_text = "<div style=\"padding-left: 15%; padding-right: 15%; line-height: 160%;\">" + self.html_raw_text + "</div>" # PRONUNCIATION
+        
+    @property
+    def content(self):
+        return self.html_raw_text
